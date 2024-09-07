@@ -1,0 +1,8 @@
+.conitainer-all{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    min-height: 475px;
+    background-image: url("../../../asset/images/bg.jpg");
+    text-align: center;
+}
