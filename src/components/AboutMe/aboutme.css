@@ -1,0 +1,97 @@
+.about-section {
+    text-align: center;
+    padding: 20px;
+}
+
+.about-section h1 {
+    font-size: 2em;
+    font-weight: 800;
+    margin-bottom: 10px;
+    font-family: "Poppins Regular";
+}
+
+.about-section h2 {
+    font-size: 1.2em;
+    margin-bottom: 20px;
+    font-weight: normal;
+    color: #888;
+}
+
+.underline {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* margin-top: 20px; */
+    color: #000;
+}
+
+.underline span {
+    display: inline-block;
+    width: 40px;
+    height: 10px;
+    background-color: #FF5733; 
+    border-radius: 5px;
+    position: relative;
+}
+
+.underline:before,
+.underline:after {
+    content: "";
+    display: block;
+    width: 80px;
+    height: 2px;
+    background-color: #333;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+.underline:before {
+    left: -60px;
+}
+
+.underline:after {
+    right: -60px;
+}
+.aboutme-container {
+    display: flex;
+    border: 1px solid #eee;
+    box-sizing: border-box;
+    box-shadow: 0px 0px 10px 0px #333;
+    width: 80%;
+    margin: 0 auto; /* Center the container */
+    position: relative;
+}
+
+.aboutme-left {
+    background-image: url("../../asset/images/me.jpg");
+    height: 602px;
+    width: 50%; /* Adjust width to fill container */
+    background-repeat: no-repeat;
+    background-size: cover; /* Ensure the image covers the entire div */
+}
+
+.aboutme-right {
+    width: 50%; /* Adjust width to fill container */
+    padding: 20px; /* Add padding for better text readability */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    
+}
+.aboutme-right-p p{
+    text-align: justify;
+    font-size: 16px;
+    line-height: 30px;
+}
+.aboutme-right-h3 {
+    padding-bottom: -20px;
+    padding-top: -28px;
+}
+.aboutme-right-h3 h3{
+    font-weight: normal;
+    font-size: 16px;
+}
+.aboutme-right-h3 span{
+    color: #FF5733;
+    font-weight: 700;
+}
