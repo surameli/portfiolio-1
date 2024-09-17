@@ -1,0 +1,198 @@
+.contact-section {
+    padding: 20px;
+    background-color: #f5f5f5;
+    text-align: center;
+  }
+  
+  .contact-header h2 {
+    font-size: 36px;
+    margin-bottom: 10px;
+  }
+  
+  .contact-header p {
+    font-size: 18px;
+    color: #666;
+    margin-bottom: 20px;
+  }
+  
+  .underline {
+    margin: 0 auto;
+    /* width: 50px; */
+  }
+  
+  .underline-bar {
+    height: 3px;
+    background-color: #ff5722;
+  }
+  
+  .contact-container {
+    display: flex;
+    /* justify-content: space-between;
+    align-items: flex-start; */
+    width: 50%;
+    background-color: #2c2c3d;
+    margin-left: 100px ;
+    margin-right: 100px;
+    padding: 30px 200px;
+    border-radius: 15px;
+    color: white;
+  }
+  
+  .left-section {
+    flex: 1;
+    text-align: left;
+    margin-top: -55px;
+    margin-left: -180px;
+  }
+  
+  .left-section h3 {
+    font-size: 28px;
+  }
+  
+  .social-icons {
+    /* margin: 20px 0; */
+    font-size: 10px;
+    margin-top: -10px;
+  }
+  
+  .social-icons svg {
+    font-size: 16px;
+    margin-right: 15px;
+    color: white;
+  }
+  
+  .email-text {
+    font-size: 20px;
+    color:#868797;
+    margin-bottom: 15px;
+    margin-top: 100px;
+  }
+  
+  .email-background img {
+    width: 100%;
+    height: 200px;
+    border-radius: 10px;
+    border-color: #17212C;
+  }
+  
+  .right-section {
+    flex: 1;
+    text-align: left;
+    background-color: #f5f5f5;
+    margin-right: -190px;
+    margin-top: 40px;
+    border-radius: 20px;
+  }
+  form h3{
+    color: #000;
+    margin-bottom: -10px;
+  }
+  form{
+    padding-left: 10px;
+    
+  }
+  form input,
+  form textarea {
+    width: 90%;
+    padding: 15px;
+    margin: 10px 0;
+    border-radius: 8px;
+    border: 1px solid #ccc;
+    background-color: #D6D6D8;
+  }
+
+  form button {
+    padding: 5px 40px 5px 40px;
+    background-color: #17212C;
+    color: white;
+    border-color: #ff5722;
+    border-radius: 20px;
+    font-size: 16px;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 5px;
+   
+  }
+  
+  form button .MuiIcon-root {
+    margin-left: 5px;
+    font-size: 18px;
+  }
+  
+  form button:hover {
+    background-color: #e64a19;
+  }
+  
+
+
+
+  @media (max-width: 768px) {
+    /* Adjust container to full width and reduce padding */
+    .contact-container {
+      width: 90%; 
+      padding: 20px;
+      margin: 0 auto; /* Center the container */
+      flex-direction: column; /* Stack the sections vertically */
+      align-items: center;
+    }
+  
+    /* Adjust the left section */
+    .left-section {
+      margin-left: 0;
+      margin-top: 0;
+      text-align: center; /* Center text on mobile */
+      margin-bottom: 20px; /* Add spacing between sections */
+    }
+  
+    /* Adjust the right section */
+    .right-section {
+      margin-right: 0;
+      margin-top: 0;
+      width: 100%; /* Take up full width */
+      padding: 10px;
+    }
+  
+    /* Make form inputs and textarea full width */
+   
+    /* Adjust the button */
+    form button {
+      width: 100%; /* Full width button */
+    }
+  
+    /* Adjust social icons */
+    .social-icons svg {
+      font-size: 30px; /* Increase size for easier interaction on mobile */
+      margin-right: 10px; /* Reduce margin between icons */
+    }
+  
+    /* Make the email background image more mobile-friendly */
+    .email-background img {
+      height: auto; /* Adjust height to keep proportions */
+      max-height: 150px; /* Limit image height for smaller screens */
+    }
+  }
+  
+  @media (max-width: 480px) {
+    /* Further adjustments for very small screens */
+    
+    .contact-container {
+      padding: 15px;
+    }
+  
+    .left-section h3,
+    form h3 {
+      font-size: 24px; /* Reduce header size */
+    }
+  
+    form button {
+      padding: 10px; /* Reduce button padding */
+    }
+  
+    /* Smaller social icons */
+    .social-icons svg {
+      font-size: 24px;
+    }
+  }
+  

@@ -95,3 +95,27 @@
     color: #FF5733;
     font-weight: 700;
 }
+
+
+
+
+@media (max-width: 768px) {
+    .aboutme-container {
+        flex-direction: column;
+        width: 95%;
+    }
+
+    .aboutme-left {
+        display: none;
+    }
+
+    .aboutme-right {
+        width: 100%;
+    }
+    .aboutme-right-p{
+        width: 90%;
+    }
+    .profilr-optins{
+        width: 85%;
+    }
+}
