@@ -1,6 +1,6 @@
 import React from "react";
 import "./banner.css";
-import Typical from "react-typical";
+// import Typical from "react-typical";
 import FacebookIcon from "@mui/icons-material/Facebook";
 import GitHubIcon from "@mui/icons-material/GitHub";
 import LinkedInIcon from "@mui/icons-material/LinkedIn";
@@ -37,7 +37,7 @@ const Banner = () => {
           </div>
           <div className="profile-details-role">
             <span className="primary-text">
-              {""}
+              {/* {""}
               <h1>
                 <Typical
                   loop={Infinity}
@@ -52,7 +52,7 @@ const Banner = () => {
                     1000,
                   ]}
                 />
-              </h1>
+              </h1> */}
               <span className="profile-role-tagline">
                 I'm skilled in web development and particularly enthusiastic
                 about building web applications using React, Express, Node.js,
