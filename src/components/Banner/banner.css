@@ -6,6 +6,8 @@
     height: 10%;
     min-height: fit-content;
     /* background-color: #24263B; */
+    margin-top: 70px;
+  
 }
 .profile-parent{
     display: flex;
@@ -98,7 +100,7 @@
     .profilr-optins .btn{
         width: 120px;
         padding: 11px 0;
-        z-index: 700;
+        /* z-index: 700; */
     }
 }
 @media screen and (max-width: 910px) {
