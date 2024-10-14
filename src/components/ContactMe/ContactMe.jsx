@@ -11,7 +11,7 @@ import myImage from '../../asset/images/mailz.jpeg';
 
 const ContactMe = () => {
   return (
-    <div className="contactme-section">
+    <div id="Contact" className="contactme-section">
           <div className="about-section">
           <h1>Contact Me</h1>
           <h2>Lets Keep In Touch</h2>

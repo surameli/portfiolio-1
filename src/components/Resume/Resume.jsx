@@ -14,7 +14,7 @@ const Resume = () => {
     switch (activeSection) {
       case 'education':
         return (
-          <div className="content-section">
+          <div id='Resume' className="content-section">
             <div className='ssss'>
                 <div className='rtrtr'>
             <h3>University Unity, Ethiopia </h3>

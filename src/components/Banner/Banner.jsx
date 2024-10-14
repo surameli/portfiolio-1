@@ -7,7 +7,7 @@ import LinkedInIcon from "@mui/icons-material/LinkedIn";
 import TelegramIcon from "@mui/icons-material/Telegram";
 const Banner = () => {
   return (
-    <div className="profile-container">
+    <div id="Home" className="profile-container">
       <div className="profile-parent">
         <div className="profile-details">
           <div className="colz">

@@ -2,6 +2,7 @@ import React, { useRef, useState } from 'react';
 import './header.css';
 import MenuIcon from '@mui/icons-material/Menu';
 import CloseIcon from '@mui/icons-material/Close';
+import { Link } from 'react-scroll';
 
 const Header = () => {
   const navRef = useRef();
@@ -19,11 +20,13 @@ const Header = () => {
       </div>
       <div className='header-right' ref={navRef}>
         <ul>
-          <li><a href="#Home" className='active'>Home</a></li>
-          <li><a href="#service">Service</a></li>
-          <li><a href="#resume">Resume</a></li>
-          <li><a href="#work">Work</a></li>
-          <li><a href="#contact">Contact</a></li>
+          <li className='active'>
+            <Link to ="Home" smooth ={true} duration={500}>Home</Link>
+            </li>
+          <li> <Link to ="AboutMe" smooth ={true} duration={500}>AboutMe</Link></li>
+          <li> <Link to ="Resume" smooth ={true} duration={500}> Resume</Link></li>
+          <li> <Link to ="Resume" smooth ={true} duration={500}>Work</Link> </li>
+          <li> <Link to ="Contact" smooth ={true} duration={500}>Contact</Link> </li>
         </ul>
       </div>
       <button className='nav-btn' onClick={showNavbar}>

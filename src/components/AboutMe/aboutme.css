@@ -1,6 +1,7 @@
 .about-section {
     text-align: center;
     padding: 20px;
+   
 }
 
 .about-section h1 {
@@ -8,6 +9,7 @@
     font-weight: 800;
     margin-bottom: 10px;
     font-family: "Poppins Regular";
+    margin-top: 60px;
 }
 
 .about-section h2 {
