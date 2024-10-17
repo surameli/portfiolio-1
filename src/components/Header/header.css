@@ -13,6 +13,7 @@
     padding: 30px;
     background-color: #24263B;
     z-index: 1;
+    cursor: pointer;
   }
   
   .header-left {
