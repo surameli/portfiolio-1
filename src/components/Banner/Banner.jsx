@@ -15,15 +15,15 @@ const Banner = () => {
               {" "}
               <FacebookIcon />
             </a>
-            <a href="#" className="github">
+            <a href="https://github.com/surameli" className="github">
               {" "}
               <GitHubIcon />
             </a>
-            <a href="#" className="linkedin">
+            <a href="https://www.linkedin.com/in/surafel-melliyon-259b04320" className="linkedin">
               {" "}
               <LinkedInIcon />
             </a>
-            <a href="#" className="telegram">
+            <a href="https://t.me/melidagi" className="telegram">
               {" "}
               <TelegramIcon />
             </a>
