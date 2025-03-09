@@ -66,11 +66,13 @@ const Banner = () => {
               Hire Me{""}
 
             </button>
-            <a href="#">
-              <button className="btn highlighted-btn">
-                Get Resume
-              </button>
-            </a>
+            <a href="/Surafel-Melliyon-FlowCV-Resume.pdf">
+  <button className="btn highlighted-btn">
+    Get Resume
+  </button>
+</a>
+
+
           </div>
         </div>
         <div className="prfiole-images">

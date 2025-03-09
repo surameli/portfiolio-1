@@ -66,10 +66,12 @@
 
 .aboutme-left {
     background-image: url("../../asset/images/me.jpg");
+    background-image: url("../../asset/images/DALL·E\ 2025-03-09\ 19.00.12\ -\ A\ realistic\ digital\ painting\ of\ a\ computer\ science\ student\ working\ at\ a\ simple\ desk\ setup\ with\ a\ laptop\ and\ a\ secondary\ monitor\ displaying\ lines\ of\ co.webp");
     height: 602px;
     width: 50%; /* Adjust width to fill container */
     background-repeat: no-repeat;
     background-size: cover; /* Ensure the image covers the entire div */
+    background-position: center;
 }
 
 .aboutme-right {

@@ -32,14 +32,14 @@ const Resume = () => {
              <div className='tttt'> 
                 <span className="date">2019-2020</span></div>
              </div> */}
-             <div className='ssss'>
+             {/* <div className='ssss'>
               <div className='rtrtr'>
               <h3>High School </h3>
               <p>HI-TECH and HOPE of The EAST Academy</p>
               </div>
              <div className='tttt'>
               <span className="date">2017-2021</span></div>
-              </div>
+              </div> */}
              <div className='ssss'>
                 <div className='rtrtr'>
             <h3> FuLL Stack Web Development, </h3>
@@ -72,32 +72,67 @@ const Resume = () => {
           </div>
         );
       case 'workHistory':
-        return (
-            <div className="content-section">
-            <div className='ssss'>
-                <div className='rtrtr'>
-            <h3>University of Legon Accra, Ghana</h3>
-            <p>Bachelor of Science Information Technology</p>
-            </div>
-            <div className='tttt'>
-            <span className="date">2014-2018</span>
-            </div>
-            </div>
-            <div>
-            <h3>National Youth Service Corps</h3>
-            <p>Ministry of Science and Technology, Uyo Akwa Ibom State</p>
-            </div>
-             <div> <span className="date">2019-2020</span></div>
-           
-              <div>
-              <h3>High School</h3>
-              <p>Command Secondary School Mbiri</p>
-              </div>
-             <div><span className="date">2007-2012</span></div>
-            
+        return <div className="content-section"> <h2>Netflix Clone</h2>
+        <p> Built an interactive Netflix clone to practice API integration and state management in React. 
+                Integrated with the TMDb API to fetch and display Netflix Originals. 
+                Created reusable components like movie rows and a banner with randomly selected movies.
+                  Used React hooks for dynamic data fetching, state management, and conditional rendering.</p>
+                  <div className="profilr-optins">
+            <button className="btn primary-btn">
+              {""}
+              demo{""}
+
+            </button>
+            <a href="#">
+              <button className="btn highlighted-btn">
+                Source Code
+              </button>
+            </a>
           </div>
-        )
-       
+       <h2>Amazon Clone</h2>
+         <p>Developed a fully functional Amazon replica emphasizing e-commerce usability and design. 
+           Developed interactive product listings and a user-friendly cart system, optimizing the shopping experience. 
+           Designed a responsive interface that adapts seamlessly to various devices, providing consistent usability 
+           on desktops, tablets, and mobile.</p> 
+           <div className="profilr-optins">
+            <button className="btn primary-btn">
+              {""}
+              demo{""}
+
+            </button>
+            <a href="#">
+              <button className="btn highlighted-btn">
+                Source Code
+              </button>
+            </a>
+          </div>  
+      <h2>todo List app</h2>
+        <p>Developed a fully functional Amazon replica emphasizing e-commerce usability and design. 
+           Developed interactive product listings and a user-friendly cart system, optimizing the shopping experience. 
+           Designed a responsive interface that adapts seamlessly to various devices, providing consistent usability 
+           on desktops, tablets, and mobile.</p>        
+ 
+                
+           <div className="profilr-optins">
+            <button className="btn primary-btn">
+              {""}
+              demo{""}
+
+            </button>
+            <a href="#">
+              <button className="btn highlighted-btn">
+                Source Code
+              </button>
+            </a>
+          </div>
+                
+                
+                
+                
+                
+                
+                
+                </div>;
        
         case 'skills':
           return (
@@ -169,38 +204,87 @@ const Resume = () => {
               </div>
             </div>
           );
-        
-         
-            
-
-
-
-
-
-
-      
-       
 
       case 'projects':
-        return <div className="content-section"><h3>University of Legon Accra, Ghana</h3>
-        <p>Bachelor of Science Information Technology</p>
-        <span className="date">2014-2018</span>
-        <h3>National Youth Service Corps</h3>
-        <p>Ministry of Science and Technology, Uyo Akwa Ibom State</p>
-        <span className="date">2019-2020</span>
-        <h3>High School</h3>
-        <p>Command Secondary School Mbiri</p>
-        <span className="date">2007-2012</span></div>;
+        return <div className="content-section"> <h2>Netflix Clone</h2>
+        <p> Built an interactive Netflix clone to practice API integration and state management in React. 
+                Integrated with the TMDb API to fetch and display Netflix Originals. 
+                Created reusable components like movie rows and a banner with randomly selected movies.
+                  Used React hooks for dynamic data fetching, state management, and conditional rendering.</p>
+                  <div className="profilr-optins">
+            <button className="btn primary-btn">
+              {""}
+              demo{""}
+
+            </button>
+            <a href="#">
+              <button className="btn highlighted-btn">
+                Source Code
+              </button>
+            </a>
+          </div>
+       <h2>Amazon Clone</h2>
+         <p>Developed a fully functional Amazon replica emphasizing e-commerce usability and design. 
+           Developed interactive product listings and a user-friendly cart system, optimizing the shopping experience. 
+           Designed a responsive interface that adapts seamlessly to various devices, providing consistent usability 
+           on desktops, tablets, and mobile.</p> 
+           <div className="profilr-optins">
+            <button className="btn primary-btn">
+              {""}
+              demo{""}
+
+            </button>
+            <a href="#">
+              <button className="btn highlighted-btn">
+                Source Code
+              </button>
+            </a>
+          </div>  
+      <h2>todo List app</h2>
+        <p>Developed a fully functional Amazon replica emphasizing e-commerce usability and design. 
+           Developed interactive product listings and a user-friendly cart system, optimizing the shopping experience. 
+           Designed a responsive interface that adapts seamlessly to various devices, providing consistent usability 
+           on desktops, tablets, and mobile.</p>        
+ 
+                
+           <div className="profilr-optins">
+            <button className="btn primary-btn">
+              {""}
+              demo{""}
+
+            </button>
+            <a href="#">
+              <button className="btn highlighted-btn">
+                Source Code
+              </button>
+            </a>
+          </div>
+                
+                
+                
+                
+                
+                
+                
+                </div>;
+
       case 'interests':
-        return <div className="content-section"><h3>University of Legon Accra, Ghana</h3>
-        <p>Bachelor of Science Information Technology</p>
-        <span className="date">2014-2018</span>
-        <h3>National Youth Service Corps</h3>
-        <p>Ministry of Science and Technology, Uyo Akwa Ibom State</p>
-        <span className="date">2019-2020</span>
-        <h3>High School</h3>
-        <p>Command Secondary School Mbiri</p>
-        <span className="date">2007-2012</span></div>;
+          return<div className="content-section">
+              <h2>Coding</h2>
+              <p>I love building web applications and solving complex problems with code. 
+                It’s exciting to turn ideas into reality and continuously learn new technologies.</p>
+              <h2>Reading Books</h2>
+              <p>I enjoy reading books on technology, self-improvement, and fiction. Books expand my knowledge, 
+                inspire new ideas, and help me see things from different perspectives.</p>
+              <h2>Music</h2>
+              <p>Listening to music helps me relax and stay focused. 
+                Whether I’m coding or unwinding, music enhances my mood and keeps me motivated.</p>
+            </div>;
+         
+       
+        
+       
+        
       default:
         return null;
     }
