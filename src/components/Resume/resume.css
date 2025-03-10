@@ -74,7 +74,7 @@
 }
 .sidebar-item.active {
   background-color: #24263B;
-  
+  color: #000;
 
 }
 
@@ -126,7 +126,7 @@ background-color: #555;
 
 .content-section h2 {
   color: #ff5722;
-  font-size: 18px;
+  font-size: 25px;
   margin-bottom: -20px;
 }
 
@@ -135,6 +135,7 @@ background-color: #555;
   text-align: justify;
   padding-left: 10px;
   width: 100%;
+  color: #666;
 }
 .ssss{
   display: flex;
@@ -458,6 +459,7 @@ margin-bottom: 30px;
   gap: 20px;
 }
 
+
 .ssss {
  
   padding: 15px;
@@ -470,13 +472,14 @@ margin-bottom: 30px;
 .rtrtr h3 {
   font-size: 1.2rem;
   margin-bottom: 8px;
+  /* color: #ff5722; */
   
 }
 
 .rtrtr p {
   font-size: 1rem;
   color: #666;
-  margin: 0;
+  margin: 0 ;
 }
 
 .tttt .date {

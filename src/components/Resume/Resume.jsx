@@ -72,7 +72,7 @@ const Resume = () => {
           </div>
         );
       case 'workHistory':
-        return <div className="content-section"> <h2>Netflix Clone</h2>
+        return <div className="content-section"> <h2> Netflix Clone</h2>
         <p> Built an interactive Netflix clone to practice API integration and state management in React. 
                 Integrated with the TMDb API to fetch and display Netflix Originals. 
                 Created reusable components like movie rows and a banner with randomly selected movies.
