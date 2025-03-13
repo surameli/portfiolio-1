@@ -29,24 +29,26 @@
     display: flex;
     /* justify-content: space-between;
     align-items: flex-start; */
-    width: 50%;
+    /* width: 100%; */
     background-color: #2c2c3d;
-    margin-left: 100px ;
-    margin-right: 100px;
+    /* margin-left: 100px ;
+    margin-right: 100px; */
     padding: 30px 200px;
-    border-radius: 15px;
+    /* border-radius: 15px; */
     color: white;
+    /* max-width: 1000px; */
   }
   
   .left-section {
     flex: 1;
     text-align: left;
     margin-top: -55px;
-    margin-left: -180px;
+    /* margin-left: -180px; */
   }
   
   .left-section h3 {
     font-size: 28px;
+    padding-top: 30px;
   }
   
   .social-icons {
@@ -79,7 +81,7 @@
     flex: 1;
     text-align: left;
     background-color: #f5f5f5;
-    margin-right: -190px;
+    /* margin-right: -190px; */
     margin-top: 40px;
     border-radius: 20px;
   }

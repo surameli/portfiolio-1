@@ -5,6 +5,7 @@ import Profile from '../components/Banner/Profile/Profile'
 import AboutMe from '../components/AboutMe/AboutMe'
 import Resume from '../components/Resume/Resume'
 import ContactMe from '../components/ContactMe/ContactMe'
+import Footers from '../components/footers/footers'
 // import { Route, Routes } from 'react-router-dom'
 // import Header from '../../components/Header/Header'
 // import Profile from '../../components/Banner/Profile/Profile'
@@ -28,6 +29,7 @@ const Home = () => {
       <AboutMe/>
       <Resume/>
      <ContactMe/>  
+     <Footers/>
  
   
     

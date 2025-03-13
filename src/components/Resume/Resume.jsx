@@ -24,22 +24,7 @@ const Resume = () => {
             <span className="date">2021-2025</span>
             </div>
             </div>
-            {/* <div className='ssss'>
-                <div className='rtrtr'>
-            <h3>National Youth Service Corps</h3>
-            <p>Ministry of Science and Technology, Uyo Akwa Ibom State</p>
-               </div>
-             <div className='tttt'> 
-                <span className="date">2019-2020</span></div>
-             </div> */}
-             {/* <div className='ssss'>
-              <div className='rtrtr'>
-              <h3>High School </h3>
-              <p>HI-TECH and HOPE of The EAST Academy</p>
-              </div>
-             <div className='tttt'>
-              <span className="date">2017-2021</span></div>
-              </div> */}
+            
              <div className='ssss'>
                 <div className='rtrtr'>
             <h3> FuLL Stack Web Development, </h3>
